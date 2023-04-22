@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const [cityName, setCityName] = useState("Rome");
+  const [cityName, setCityName] = useState("Mumbai");
   const [inputText, setInputText] = useState("");
   const [data, setData] = useState({});
   const [error, setError] = useState(false);
